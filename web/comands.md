@@ -1,0 +1,11 @@
+npm create vite@latest
+web
+react
+typescript
+
+cd web     
+npm install
+npm run dev
+
+npm i -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
