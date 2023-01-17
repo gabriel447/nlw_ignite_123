@@ -8,4 +8,8 @@ watch permite que ele fique atualizando as alterações e executando automaticam
 
 backend api restful -> rotas -> fastify
 
-método HTTP: Get, Post, Put, Patch, Delete.
+mysql2, knex, prisma (ORM) -> intermédio entre aplicação e banco de dados
+
+async await para deixar mais rapido a execução (promisses)
+
+cors -> possibilita o frontend buscar dados do backend (integração)
