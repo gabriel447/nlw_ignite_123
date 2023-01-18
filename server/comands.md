@@ -21,3 +21,17 @@ npx prisma migrate dev -> create habits
 npx prisma studio
 
 npm i @fastify/cors
+
+__________________________________________________________
+
+git clone
+
+npm i
+
+npm run dev
+
+.env -> DATABASE_URL="file:./dev.db"
+
+npx prisma migrate dev -> create the rest of the tables
+
+npx prisma studio
