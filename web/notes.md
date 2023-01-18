@@ -18,3 +18,5 @@ Propriedade: Uma informação enviada pra modificar um componente visual ou comp
 o tailwindcss usa os estilos inline no html, se você não gosta de usar assim tem outras formas.
 
 biblioteca de icones -> phosphoricons
+
+no react o map precisa de uma key obrigatória

@@ -13,3 +13,5 @@ npx tailwindcss init -p
 ________________________________________________
 
 npm i phosphor-react
+
+npm i dayjs
