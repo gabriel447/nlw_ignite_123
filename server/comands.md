@@ -35,3 +35,15 @@ npm run dev
 npx prisma migrate dev -> create the rest of the tables
 
 npx prisma studio
+
+npx prisma migrate dev -> relations
+
+https://www.npmjs.com/package/prisma-erd-generator
+
+npm i -D prisma-erd-generator @mermaid-js/mermaid-cli
+
+npx prisma generate
+
+npx prisma db seed
+
+npx prisma studio
