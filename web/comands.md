@@ -9,3 +9,7 @@ npm run dev
 
 npm i -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
+
+________________________________________________
+
+npm i phosphor-react

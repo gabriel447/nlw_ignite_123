@@ -16,3 +16,5 @@ Componente: Reaproveitar / Isolar
 Propriedade: Uma informação enviada pra modificar um componente visual ou comportamentalmente
 
 o tailwindcss usa os estilos inline no html, se você não gosta de usar assim tem outras formas.
+
+biblioteca de icones -> phosphoricons
