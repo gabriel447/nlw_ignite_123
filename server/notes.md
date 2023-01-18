@@ -13,3 +13,5 @@ mysql2, knex, prisma (ORM) -> intermédio entre aplicação e banco de dados
 async await para deixar mais rapido a execução (promisses)
 
 cors -> possibilita o frontend buscar dados do backend (integração)
+
+zod -> faz a validação e traz a tipagem

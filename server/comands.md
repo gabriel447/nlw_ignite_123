@@ -47,3 +47,7 @@ npx prisma generate
 npx prisma db seed
 
 npx prisma studio
+
+npm i zod
+
+npm i dayjs
