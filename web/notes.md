@@ -37,4 +37,4 @@ radix para deixar a aplicação com mais acessibilidade (usado normalmente para 
 
 o portal pode ser mostrado em qualquer parte da aplicação
 
-os componentes do radix não tem estilização própria
+os componentes do radix não tem estilização própria então vamos usar o tailwindcss
