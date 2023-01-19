@@ -13,7 +13,7 @@ export function HabitDay({ completed, amount }: HabitDayProps) {
   return (
     <Popover.Root>
       <Popover.Trigger
-        // usando variáveis condicionais com clsx
+        // usando variáveis condicionais estilizaveis com clsx
         className={clsx('w-10 h-10 bg-zinc-900 border-2 border-zinc-800 rounded-lg',{
           'bg-zinc-900 border-zinc-700': completedPercentage === 0,
           'bg-violet-900 border-violet-700': completedPercentage > 0 && completedPercentage < 20,

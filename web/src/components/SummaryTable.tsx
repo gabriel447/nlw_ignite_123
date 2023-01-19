@@ -38,6 +38,7 @@ export function SummaryTable() {
             <HabitDay
               key={date.toString()}
               amount={5}
+              //criando uma aleatoriedade para renderizar cores diferentes
               completed={Math.round(Math.random() * 5)}
             />
           )
