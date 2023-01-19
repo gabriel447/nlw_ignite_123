@@ -20,3 +20,17 @@ o tailwindcss usa os estilos inline no html, se você não gosta de usar assim t
 biblioteca de icones -> phosphoricons
 
 no react o map precisa de uma key obrigatória
+
+no react tudo é em camelCase
+
+*Imperativa 
+você dá as instruçõees passo a passo do que é preciso fazer
+
+*Declarativa
+cria uma condição e reage a ela quando ela for verdadeira ou falsa
+
+no react sempre vamos trabalhar da forma declarativa
+
+estados são variáveis monitoradas pelo react
+
+radix para deixar a aplicação com mais acessibilidade (usado normalmente para modais)

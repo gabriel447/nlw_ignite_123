@@ -15,3 +15,5 @@ ________________________________________________
 npm i phosphor-react
 
 npm i dayjs
+
+npm i @radix-ui/react-dialog
