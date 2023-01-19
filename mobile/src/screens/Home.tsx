@@ -5,9 +5,13 @@ import { generateRangeDatesFromYearStart } from '../utils/generate-range-between
 import { Header } from '../components/Header';
 import { HabitDay, DAY_SIZE } from '../components/HabitDay';
 
+//quantos dias da semana
 const weekDays = ['D', 'S', 'T', 'Q', 'Q', 'S', 'S'];
+//calculo de quantos dias passou entre o primeiro dia do ano e agora
 const datesFromYearStart = generateRangeDatesFromYearStart();
-const minimunSummaryDatesSizes = 18 * 3;
+//minimo de quadradinhos a serem renderizados
+const minimunSummaryDatesSizes = 30;
+//calculo pegando o total de dias ja passados e o total em um ano
 const amountOfDaysToFill = minimunSummaryDatesSizes - datesFromYearStart.length
 
 export function Home() {
@@ -44,9 +48,9 @@ export function Home() {
           }
 
           {
-            // aqui ele pega a quantidade de quadradinhos a serem renderizados DEPOIS DOS DIAS PASSADOS
-            // ele pega a quantidade e faz um map renderizando a quantidade de quadradinhos desabilitados
-            // aqui ele usa a mesma altura e largura do DAY_SIZE
+            // aqui ele pega a quantidade de quadradinhos faz um map e renderiza os quadradinhos 
+            // desabilitados DEPOIS DOS DIAS PASSADOS
+            // e ele usa a mesma altura e largura do DAY_SIZE
             amountOfDaysToFill > 0 && Array
               .from({ length: amountOfDaysToFill })
               .map((_, index) => (

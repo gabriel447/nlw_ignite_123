@@ -14,7 +14,7 @@ ___________________________________________________________
 
 nativeWind permite que possamos usar o tailwindcss no react-native
 
-<> fragment, para usar mais de um componente..
+<> fragment, para encapsular usar mais de um componente..
 
 como o class é uma palavra reservada no html, usamos o className no react e react-native
 
