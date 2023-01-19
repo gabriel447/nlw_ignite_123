@@ -15,3 +15,7 @@ async await para deixar mais rapido a execução (promisses)
 cors -> possibilita o frontend buscar dados do backend (integração)
 
 zod -> faz a validação e traz a tipagem
+
+o patch é para mudar um status
+
+route param => parâmetro de identificação
