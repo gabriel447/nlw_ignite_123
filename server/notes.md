@@ -19,3 +19,7 @@ zod -> faz a validação e traz a tipagem
 o patch é para mudar um status
 
 route param => parâmetro de identificação
+
+RAW SQL -> escrever sql na mão
+
+EPOCH UNIX TIMESTAMP - numero que representa a data atual em formato numérico
