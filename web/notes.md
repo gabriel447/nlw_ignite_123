@@ -34,3 +34,7 @@ no react sempre vamos trabalhar da forma declarativa
 estados são variáveis monitoradas pelo react
 
 radix para deixar a aplicação com mais acessibilidade (usado normalmente para modais)
+
+o portal pode ser mostrado em qualquer parte da aplicação
+
+os componentes do radix não tem estilização própria
