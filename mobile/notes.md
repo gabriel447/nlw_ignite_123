@@ -25,3 +25,9 @@ o @types é para não ficar dando erro ao referenciar os svg's
 na pasta libs criamos um arquivo de configurações para usar o dayjs nas datas daqui do brasil
 
 por padrão o react native coloca as coisas uma embaixo da outra por isso usamos sempre o flex
+
+navegação em pilha com o react navigation
+
+chamamos de handle quando o é uma funçao que ocorre quando um usuário interage com um elemento
+
+usamos o map quando queremos pegar todos os itens e manipular e usamos o filter se quisermos reduzir a um só valor

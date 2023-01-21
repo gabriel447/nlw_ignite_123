@@ -19,3 +19,11 @@ npx expo install react-native-svg
 npm i react-native-svg-transformer --save-dev
 
 npm i dayjs
+
+________________________________________________
+
+npm i @react-navigation/native
+
+npx expo install react-native-screens react-native-safe-area-context
+
+npm i @react-navigation/native-stack
