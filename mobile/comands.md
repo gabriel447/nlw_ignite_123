@@ -27,3 +27,9 @@ npm i @react-navigation/native
 npx expo install react-native-screens react-native-safe-area-context
 
 npm i @react-navigation/native-stack
+
+_____________________________________
+
+npm i axios
+
+npm i --save clsx

@@ -31,3 +31,5 @@ navegação em pilha com o react navigation
 chamamos de handle quando o é uma funçao que ocorre quando um usuário interage com um elemento
 
 usamos o map quando queremos pegar todos os itens e manipular e usamos o filter se quisermos reduzir a um só valor
+
+use o try catch sempre para tratamento de erros
