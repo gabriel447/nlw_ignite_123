@@ -23,3 +23,7 @@ npm i @radix-ui/react-popover
 npm i clsx
 
 npm i @radix-ui/react-checkbox
+
+__________________________________________________
+
+npm i axios

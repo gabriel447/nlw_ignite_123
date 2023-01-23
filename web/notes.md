@@ -39,3 +39,13 @@ o portal pode ser mostrado em qualquer parte da aplicação
 
 os componentes do radix não tem estilização própria então vamos usar o tailwindcss
 
+_____________________________________________________________________________________
+
+fetch API - função nativa dos browsers fetch('http://localhost:)
+
+vamos usar o axios para manipular as requisições http, pois diminui a quantidade de códigos
+
+o useEffect é uma função do react que lida com efeitos colaterais
+
+hack = se você deixar o parâmetro [] ela executa só uma vez no momento que o componente é exibido a primeira vez,
+então usamos esse hack para fazer métodos http com axios dentro do componente react
