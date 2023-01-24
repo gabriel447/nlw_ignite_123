@@ -1,7 +1,7 @@
-import { View, TouchableOpacity, Text } from "react-native";
+import { View, TouchableOpacity, Text } from 'react-native';
 import { Feather } from '@expo/vector-icons';
 import colors from 'tailwindcss/colors';
-import { useNavigation } from "@react-navigation/native";
+import { useNavigation } from '@react-navigation/native';
 
 import Logo from '../assets/logo.svg';
 

@@ -1,17 +1,17 @@
-import { useRoute } from "@react-navigation/native";
-import { ScrollView, Text, View } from "react-native";
-import dayjs from "dayjs";
+import { useRoute } from '@react-navigation/native';
+import { ScrollView, Text, View } from 'react-native';
+import dayjs from 'dayjs';
 
-import { BackButton } from "../components/BackButton";
-import { ProgressBar } from "../components/Progress.Bar";
-import { Checkbox } from "../components/Checkbox";
+import { BackButton } from '../components/BackButton';
+import { ProgressBar } from '../components/Progress.Bar';
+import { Checkbox } from '../components/Checkbox';
 
 interface Params {
   date: string;
 }
 
 export function Habit() {
-  const route = useRoute()
+  const route = useRoute();
   const { date } = route.params as Params;
 
   const parsedDate = dayjs(date);
