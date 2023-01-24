@@ -33,3 +33,7 @@ _____________________________________
 npm i axios
 
 npm i --save clsx
+
+_____________________________________
+
+npx expo install react-native-reanimated

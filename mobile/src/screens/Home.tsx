@@ -30,9 +30,8 @@ export function Home() {
 
   async function fetchData() {
     try {
-      setLoading(true);
+      setLoading(true)
       const response = await api.get('/summary');
-      console.log(response.data);
       setSummary(response.data);
     } catch (error) {
       Alert.alert('Ops', 'Não foi possível carregar o sumário de hábitos.');
@@ -43,8 +42,8 @@ export function Home() {
   }
 
   useFocusEffect(useCallback(() => {
-    fetchData();
-  }, []));
+      fetchData();
+    }, []));
 
   if (loading) {
     return (
@@ -59,7 +58,7 @@ export function Home() {
       <View className="flex-row mt-6 mb-2">
         {
           weekDays.map((weekDay, i) => (
-            <Text
+            <Text 
               key={`${weekDay}-${i}`}
               className="text-zinc-400 text-xl font-bold text-center mx-1"
               style={{ width: DAY_SIZE }}
@@ -80,31 +79,31 @@ export function Home() {
               {
                 datesFromYearStart.map(date => {
                   const dayWithHabits = summary.find(day => {
-                    return dayjs(date).isSame(day.date, 'day');
+                    return dayjs(date).isSame(day.date, 'day')
                   })
 
                   return (
-                    <HabitDay
+                    <HabitDay 
                       key={date.toISOString()}
                       date={date}
                       amountOfHabits={dayWithHabits?.amount}
                       amountCompleted={dayWithHabits?.completed}
                       onPress={() => navigate('habit', { date: date.toISOString() })}
                     />
-                  );
+                  )
                 })
               }
 
               {
                 amountOfDaysToFill > 0 && Array
-                  .from({ length: amountOfDaysToFill })
-                  .map((_, index) => (
-                    <View
-                      key={index}
-                      className="bg-zinc-900 rounded-lg border-2 m-1 border-zinc-800 opacity-40"
-                      style={{ width: DAY_SIZE, height: DAY_SIZE }}
-                    />
-                  ))
+                .from({ length: amountOfDaysToFill })
+                .map((_, index) => (
+                  <View 
+                    key={index}
+                    className="bg-zinc-900 rounded-lg border-2 m-1 border-zinc-800 opacity-40"
+                    style={{ width: DAY_SIZE, height: DAY_SIZE }}
+                  />
+                ))
               }
             </View>
           )
